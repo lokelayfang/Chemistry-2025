@@ -15,7 +15,7 @@
     <script src="sky.js"></script>
 
     <!-- this is a comment: the alert below produces a pop up box when loaded to give information to users, 
-     you can edit the message in between the inverted commas or remove it entirely
+     alert("Welcome to our AR experience! Point your camera at the Hiro marker to see the 3D model.");y
     -->
     <script>
       window.onload = function () {
@@ -73,9 +73,9 @@
         smoothThreshold="1000"
       >
         
-        <a-sky 
-          id=sky
-          color="#C0C0C0"
+        <position="3 0 0"
+         rotation="0 0 90"
+         scale="0.5 0.5 0.5"
           opacity="0"
         >
         </a-sky>        
